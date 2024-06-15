@@ -1,16 +1,13 @@
 # About this repository
 This repository provides Automatic Generation Multiple-Choice Questions System (AGQ System).  AQG System is a program source to generate panoramic questions using Knowledge Graphs based on inference rules. A panoramic question is defined as a question that includes panoramic knowledge and requires understanding the overall content when solving it. Knowledge graphs consist of entities (words) and relations (links) between the entities, and this method generate questions by extracting small subgraphs from the knowledge graphs and hiding target words (correct answer words). 
 
-***image or gif***
+\*\*image or gif\*\*
 
 # Requirement
-Python: 3.9.15
-GraphDB: 10.1.3
- https://graphdb.ontotext.com/
-wikipedia2Vec
- https://wikipedia2vec.github.io/wikipedia2vec/
-The correct answer words to used in the questions
- *Please use words existing in the knowledge graphs DBpedia Japanese and Wikidata, and in pretrained embeddings of Wikipedia2Vec.
+* Python: 3.9.15
+* GraphDB: 10.1.3 (https://graphdb.ontotext.com/)
+* wikipedia2Vec (https://wikipedia2vec.github.io/wikipedia2vec/)
+* The correct answer words to used in the questions (Please use words existing in the knowledge graphs DBpedia Japanese and Wikidata, and in pretrained embeddings of Wikipedia2Vec.)
 
 Environments under [Anaconda for Mac](https://www.anaconda.com/download) is tested.
 
