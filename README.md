@@ -1,6 +1,7 @@
 # About this repository
 This repository provides Automatic Generation Multiple-Choice Questions System (AGQ System).  AQG System is a program source to generate panoramic questions using Knowledge Graphs based on inference rules. A panoramic question is defined as a question that includes panoramic knowledge and requires understanding the overall content when solving it. Knowledge graphs consist of entities (words) and relations (links) between the entities, and this method generate questions by extracting small subgraphs from the knowledge graphs and hiding target words (correct answer words). 
 
+* Example of generated questions
 \*\*image or gif\*\*
 
 # Requirement
@@ -31,5 +32,8 @@ Generate questions by running "main.py".
 ```bash
 python main.py
 ```
+Draw the graph using a graph visualization tool based on the generated CSV file of the question graph.
  
-# Reference
+# Example of the execution result
+\*\*image or gif\*\*
+
