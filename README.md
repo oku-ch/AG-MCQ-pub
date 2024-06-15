@@ -2,7 +2,7 @@
 This repository provides Automatic Generation Multiple-Choice Questions System (AGQ System).  AQG System is a program source to generate panoramic questions using Knowledge Graphs based on inference rules. A panoramic question is defined as a question that includes panoramic knowledge and requires understanding the overall content when solving it. Knowledge graphs consist of entities (words) and relations (links) between the entities, and this method generate questions by extracting small subgraphs from the knowledge graphs and hiding target words (correct answer words). 
 
 * Examples of multiple choice questions with this system
-![MCQexample](https://github.com/oku-ch/AG-MCQ-pub/assets/87764149/5fbca56b-2407-4ac6-8f87-2a5227155bd6)
+![MCQexample_w](https://github.com/oku-ch/AG-MCQ-pub/assets/87764149/c275a4c0-7263-47e1-bac5-21630104d223)
 
 # Requirement
 * Python: 3.9.15
